@@ -33,7 +33,7 @@
 }
 
 div {
-display: table-cell;
+display: inline-block;
 }
 
 #travels {
