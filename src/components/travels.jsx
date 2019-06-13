@@ -74,6 +74,7 @@ class Travels extends Component {
 
     render() {
         return <div>
+            <h1>Lista de viajes disponibles</h1>
             {(this.state.travels).map(travel => <Travel {...travel} />)}
             <form onSubmit={this.handleSubmit}>
                 <label>Añadir Destino:</label>
